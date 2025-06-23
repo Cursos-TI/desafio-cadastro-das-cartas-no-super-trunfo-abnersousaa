@@ -10,7 +10,10 @@ int main() {
 	float areakm2;
 	float pib;
 	int numeroturistas;
-	
+	float densidadePopulacional;
+    float pibpc;
+    
+
 	    printf("Qual é o Estado? \n");
          scanf("%c", &letra);
 
@@ -32,6 +35,11 @@ int main() {
         printf("Qual a quantidade de pontos turisticos da cidade?\n");
          scanf("%d", &numeroturistas);
 
+         densidadePopulacional = (float)populacao / areakm2;
+
+         pibpc = (pib * 1000000000) / populacao;
+
+
         printf("Estado: %c\n", letra); 
         printf("Codigo: %s\n", codigo); 
         printf("Cidade: %s\n", cidade);
@@ -39,7 +47,8 @@ int main() {
         printf("Area: %f", areakm2);printf(" KM2\n");
         printf("PIB: %f", pib);printf(" Bilioes de Reais\n");
         printf("Numero de Pontos Turisticos: %d\n", numeroturistas); 
-
+        printf("A Densidade Populacional é: %.2f\n", densidadePopulacional);
+        printf("O PIB per capita é: %.2f\n", pibpc);
 
     
    
