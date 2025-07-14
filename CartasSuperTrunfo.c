@@ -46,7 +46,7 @@ int main() {
          scanf("%f", &pib);
 
         printf("Qual a quantidade de pontos turisticos da cidade?\n");
-         scanf("%d\n", &numeroturistas);
+         scanf("%d", &numeroturistas);
          
     
          
@@ -101,7 +101,7 @@ int main() {
         printf("Numero de Pontos Turisticos: %d\n", numeroturistas); 
         printf("A Densidade Populacional é: %.2f\n", densidadePopulacional);
         printf("O PIB per capita é: %.2f\n", pibpc);
-        printf("O Super Poder de %s é de %.2f", cidade, (long long)superpoder);
+        printf("O Super Poder de %s é de %lld", cidade, (long long)superpoder);
         
           //Atributos Carta2
         printf("### Carta 2 ###");
@@ -114,7 +114,7 @@ int main() {
         printf("Numero de Pontos Turisticos: %d\n", numeroturistas2); 
         printf("A Densidade Populacional é: %.25f\n", densidadePopulacional2);
         printf("O PIB per capita é: %.18f\n", pibpc2);
-        printf("O Super Poder de %s é de %.2f", cidade2, (long long)superpoder2); 
+        printf("O Super Poder de %s é de %lld", cidade2, (long long)superpoder2); 
         
         // Duelo entre as duas cartas e exibição de resultados.
         printf("\n### BATALHA ###\n");
